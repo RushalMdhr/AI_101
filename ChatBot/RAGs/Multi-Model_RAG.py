@@ -44,11 +44,11 @@ def get_embedding(text):
 
 # ============ 3. BUILD DATABASE ============
 sources = [
-    # "https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day",
-    # "sources\\Power-BI.pdf",
-    # "sources\\Image.jpg"  # Add your image
-    # "sources\\sample.txt"  # Add your JSON file
-    "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "sources\\RushalMananadhar(790333).pdf",
+    "sources/Image.jpg", # Add your image
+    "sources/sample.txt"  # Add your JSON file
+    # "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
 ]
 
 all_data = []
