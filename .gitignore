@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Some Installation
+ChatBot/Tesseract-OCR/
+# ChatBot/RAGs/tesseract-ocr-w64-setup-5.5.3.20260724.exe
+
+# big folders
+archive.zip
+eval.parquet
+hr_interview_questions_cleaned.csv
+train.parquet

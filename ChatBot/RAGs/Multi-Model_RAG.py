@@ -40,13 +40,15 @@ def chunk_text(text, chunk_size=500, overlap=50):
     return [text[i:i+chunk_size] for i in range(0, len(text), chunk_size-overlap)]
 
 def get_embedding(text):
-    return ollama.embeddings(model='all-minilm', prompt=text)['embedding']
+    return ollama.embeddings(model='nomic-embed-text', prompt=text)['embedding']
 
 # ============ 3. BUILD DATABASE ============
 sources = [
-    # "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-    # "Power-BI.pdf",
-    # "Image.jpg"  # Add your image
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "sources\\RushalMananadhar(790333).pdf",
+    "sources/Image.jpg", # Add your image
+    "sources/sample.txt"  # Add your JSON file
+    # "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
 ]
 
 all_data = []
@@ -68,7 +70,7 @@ for src in sources:
         })
 
 # Save
-with open("multi_modal_rag.json", "w") as f:
+with open("datas\\multi_modal_rag.json", "w") as f:
     json.dump(all_data, f, indent=2)
 print(f"✅ Saved {len(all_data)} chunks")
 

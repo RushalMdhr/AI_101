@@ -1,0 +1,25 @@
+{
+  "question": "Docker and Kubernetes",
+  "answer": "Docker and Kubernetes are related technologies used in containerization. \n\n- Docker is a platform for building, shipping, and running containers. It provides a way to package an application and its dependencies into a single container image that can be run on any system that supports Docker.\n- Kubernetes (K8s) is a container orchestration system that automates the deployment, scaling, and management of containers across a cluster of machines. It is designed to work with Docker containers and provides a way to manage and scale containerized applications.",
+  "sources": [
+    {
+      "source": "RushalMananadhar(790333).pdf",
+      "page": 8,
+      "score": 0.42489540576934814,
+      "preview": "Page  |  8  \n\u25cf  Docker  Hub:  A  public  registry  to  store  and  share  container  images.  \nWhy  containers  instead ..."
+    },
+    {
+      "source": "RushalMananadhar(790333).pdf",
+      "page": 8,
+      "score": 0.42489540576934814,
+      "preview": "Page  |  8  \n\u25cf  Docker  Hub:  A  public  registry  to  store  and  share  container  images.  \nWhy  containers  instead ..."
+    },
+    {
+      "source": "RushalMananadhar(790333).pdf",
+      "page": 8,
+      "score": 0.42489540576934814,
+      "preview": "Page  |  8  \n\u25cf  Docker  Hub:  A  public  registry  to  store  and  share  container  images.  \nWhy  containers  instead ..."
+    }
+  ],
+  "summary": "Here's a 2-sentence summary:\n\nDocker is a platform for building, shipping, and running containers, allowing applications and their dependencies to be packaged into a single image that can run on any system with Docker support. Kubernetes is a container orchestration system that automates the deployment, scaling, and management of containers across multiple machines, designed to work seamlessly with Docker containers."
+}
