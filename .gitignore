@@ -226,3 +226,4 @@ archive.zip
 eval.parquet
 hr_interview_questions_cleaned.csv
 train.parquet
+Extractor/classifier/question_classifier/
